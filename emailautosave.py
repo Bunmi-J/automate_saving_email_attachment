@@ -13,7 +13,7 @@ config.read('config.py')
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseUpload
-from configparser import EMAIL_HOST, EMAIL_USER, EMAIL_PASS, TRUSTED_SENDER, DRIVE_FOLDER_ID
+from config import EMAIL_HOST, EMAIL_USER, EMAIL_PASS, TRUSTED_SENDER, DRIVE_FOLDER_ID
 
 print(EMAIL_HOST, EMAIL_USER, EMAIL_PASS, TRUSTED_SENDER, DRIVE_FOLDER_ID)
 
